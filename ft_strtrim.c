@@ -6,7 +6,7 @@
 /*   By: blarger <blarger@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/30 11:25:33 by blarger           #+#    #+#             */
-/*   Updated: 2023/12/01 11:53:53 by blarger          ###   ########.fr       */
+/*   Updated: 2023/12/05 10:52:02 by blarger          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 
 /* int main(void)
 {
-    char *str1 = "   Hello, World!   ";
+    char *str1 = "";
     char *str2 = "---Hello, World!---";
     char *str3 = "Hello, World!";
     char *set1 = " ";

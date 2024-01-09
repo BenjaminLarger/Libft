@@ -6,12 +6,13 @@
 /*   By: blarger <blarger@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/02 10:43:13 by blarger           #+#    #+#             */
-/*   Updated: 2023/12/02 19:49:29 by blarger          ###   ########.fr       */
+/*   Updated: 2023/12/06 15:18:24 by blarger          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <unistd.h>
 
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 void	*ft_calloc(size_t count, size_t size);
@@ -98,7 +99,7 @@ int main()
     char c = ' ';
     int i = 0;
 
-    result = ft_split(s, c);
+    result = ft_split(0 ,0);
 
     while (result[i] != NULL)
     {
